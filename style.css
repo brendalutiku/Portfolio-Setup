@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  position: absolute;
+  width: 375px;
+  height: 718px;
+  left: 0;
+  top: 0;
+}
+
+.logo {
+  width: 76px;
+  height: 20px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+
+  /* Identical to box height, or 11% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* Primary /B400 */
+  color: #6070ff;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+nav ul {
+  float: right;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  padding: 0 14px;
+  margin: 0;
+  color: #fff;
+}
+
+.checkbtn {
+  color: #6070ff;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  float: right;
+  border-radius: 8px;
+}
+
+#check {
+  display: none;
+}
+
+.container {
+  background-image: url("./images/header-shapes\ mobile.png");
+  background-position: absolute;
+  height: 587.15px;
+  left: -34px;
+  top: 104px;
+}
+
+h1 {
+  width: 322px;
+  height: 150px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  margin-bottom: 10px;
+  padding-top: 100px;
+
+  /* or 130% */
+  display: flex;
+  align-items: center;
+
+  /* Neutrals /N800 */
+  color: #172b4d;
+}
+
+p {
+  width: 327px;
+  height: 146px;
+  font-style: normal;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  padding-top: 50px;
+  margin-top: 40px;
+
+  /* Neutrals /N600 */
+  color: #344563;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.text {
+  height: 24px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  padding-top: 50px;
+  margin-top: 12px;
+
+  /* Primary /B300 */
+  color: #7f8cff;
+  display: inline-block;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.image {
+  width: 170.17px;
+  height: 20px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  margin-top: 12px;
+}
