@@ -15,6 +15,16 @@ body {
   height: 718px;
   left: 0;
   top: 0;
+  background-color: #fff;
+}
+
+.navigation {
+  display: block;
+  flex-wrap: wrap;
+  align-items: center;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  padding: 15px;
 }
 
 .logo {
@@ -66,15 +76,33 @@ nav ul li a {
   display: none;
 }
 
+.fa {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  width: 40px;
+  height: 40px;
+  padding-left: 200px;
+  color: #505f79;
+  right: 26px;
+  top: calc(50% - 40px / 2);
+  border-radius: 8px;
+}
+
 .container {
   background-image: url("./images/header-shapes\ mobile.png");
-  background-position: absolute;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 30px 24px;
+  border-bottom-left-radius: 15%;
   height: 587.15px;
   left: -34px;
   top: 104px;
 }
 
-h1 {
+.intro {
   width: 322px;
   height: 150px;
   font-style: normal;
@@ -92,7 +120,7 @@ h1 {
   color: #172b4d;
 }
 
-p {
+.paragrap {
   width: 327px;
   height: 146px;
   font-style: normal;
@@ -100,7 +128,7 @@ p {
   font-weight: 400;
   font-size: 17px;
   line-height: 24px;
-  padding-top: 50px;
+  padding-top: 20px;
   margin-top: 40px;
 
   /* Neutrals /N600 */
@@ -132,8 +160,14 @@ p {
 }
 
 .image {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 8px;
   width: 170.17px;
   height: 20px;
+  list-style: none;
 
   /* Inside auto layout */
   flex: none;
