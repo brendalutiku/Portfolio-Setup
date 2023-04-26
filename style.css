@@ -10,6 +10,7 @@
 }
 
 body {
+  background-color: rgb(247, 243, 243);
   position: absolute;
   width: 375px;
   height: 718px;
@@ -57,6 +58,7 @@ nav ul li {
 }
 
 nav ul li a {
+  display: none;
   padding: 0 14px;
   margin: 0;
   color: #fff;
