@@ -15,7 +15,6 @@ body {
   height: 718px;
   left: 0;
   top: 0;
-  background-color: #fff;
 }
 
 .navigation {
@@ -94,9 +93,10 @@ nav ul li a {
   background-image: url("./images/header-shapes\ mobile.png");
   flex-direction: column;
   align-items: flex-start;
+  background-color: #fff;
+  border-bottom-left-radius: 90px;
   gap: 12px;
   padding: 30px 24px;
-  border-bottom-left-radius: 15%;
   height: 587.15px;
   left: -34px;
   top: 104px;
