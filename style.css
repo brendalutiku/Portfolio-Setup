@@ -17,6 +17,8 @@ body {
   height: 718px;
   left: 0;
   top: 0;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .navigation {
@@ -150,7 +152,7 @@ nav ul li a {
   font-size: 16px;
   line-height: 24px;
   padding-top: 50px;
-  margin-top: 12px;
+  margin-top: 2px;
 
   /* Primary /B300 */
   color: #7f8cff;
@@ -223,8 +225,8 @@ nav ul li a {
   flex-direction: column;
   align-items: center;
   padding: 114px 24px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 24px;
+  margin-right: 24px;
   gap: 88px;
   position: absolute;
   width: 327px;
@@ -357,7 +359,8 @@ nav ul li a {
 }
 
 .press:hover {
-  background-color: #fff;
+  background-color: #396df2;
+  color: #fff;
 }
 
 .about-me {
@@ -375,13 +378,14 @@ nav ul li a {
   top: 3586.8px;
 }
 
-header {
+h6 {
   width: 327px;
   height: 35px;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
+  margin-bottom: 20px;
 
   /* or 130% */
   display: flex;
@@ -460,7 +464,9 @@ header {
 }
 
 .start:hover {
-  background-color: #fff;
+  background-color: #afc2f3;
+  color: #fff;
+  padding: 5px 5px;
 }
 
 .box {
