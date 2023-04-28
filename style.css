@@ -217,19 +217,41 @@ nav ul li a {
   flex-grow: 0;
 }
 
-.cardworks-one {
-  box-sizing: border-box;
-
+.works {
   /* Auto layout */
+  display: grid;
   flex-direction: column;
   align-items: center;
+  padding: 114px 24px;
+  margin-left: 20px;
+  margin-right: 20px;
+  gap: 88px;
+  position: absolute;
+  width: 327px;
+  height: 2788px;
+  left: 0;
+  top: 718px;
+}
+
+.page {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+
+  /* Neutrals/ N600 */
+  color: #344563;
+}
+
+.cardworks-one {
+  box-sizing: border-box;
   padding: 16px;
   gap: 16px;
   width: 327px;
   height: 552px;
-  margin: 40px;
 
   /* Neutrals/ N0 */
+
   background: #ffff;
 
   /* Neutrals/ N40 */
@@ -244,17 +266,13 @@ nav ul li a {
 
 .cardworks-two {
   box-sizing: border-box;
-
-  /* Auto layout */
-  flex-direction: column;
-  align-items: center;
   padding: 16px;
   gap: 16px;
   width: 327px;
   height: 596px;
-  margin: 40px;
 
   /* Neutrals/ N0 */
+
   background: #ffff;
 
   /* Neutrals/ N40 */
@@ -269,17 +287,13 @@ nav ul li a {
 
 .cardworks-three {
   box-sizing: border-box;
-
-  /* Auto layout */
-  flex-direction: column;
-  align-items: center;
   padding: 16px;
   gap: 16px;
   width: 327px;
   height: 552px;
-  margin: 40px;
 
   /* Neutrals/ N0 */
+
   background: #ffff;
 
   /* Neutrals/ N40 */
@@ -294,17 +308,13 @@ nav ul li a {
 
 .cardworks-four {
   box-sizing: border-box;
-
-  /* Auto layout */
-  flex-direction: column;
-  align-items: center;
   padding: 16px;
   gap: 16px;
   width: 327px;
   height: 596px;
-  margin: 40px;
 
   /* Neutrals/ N0 */
+
   background: #ffff;
 
   /* Neutrals/ N40 */
@@ -338,7 +348,7 @@ nav ul li a {
   font-size: 17px;
   line-height: 24px;
   text-align: center;
-  letter-spacing: 0.03em;
+  background-color: #fff;
   color: #396df2;
 
   /* Primary /B400 */
@@ -347,11 +357,11 @@ nav ul li a {
 }
 
 .press:hover {
-  background-color: #396df2;
-  color: #fff;
+  background-color: #fff;
 }
 
 .about-me {
+  display: flex;
   background: #fff;
   border-top-right-radius: 90px;
   flex-direction: column;
@@ -365,7 +375,7 @@ nav ul li a {
   top: 3586.8px;
 }
 
-.about {
+header {
   width: 327px;
   height: 35px;
   font-style: normal;
@@ -412,6 +422,7 @@ nav ul li a {
   padding: 0;
   width: 200px;
   height: 40px;
+  gap: 8px;
 
   /* inside auto layout */
 
@@ -449,8 +460,7 @@ nav ul li a {
 }
 
 .start:hover {
-  background-color: #396df2;
-  color: #fff;
+  background-color: #fff;
 }
 
 .box {
@@ -484,18 +494,37 @@ nav ul li a {
   color: #000;
 }
 
-.lists {
+.skill-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  width: 327px;
+  height: 464.15px;
+
+  /* inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.language-list {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 12px;
   gap: 12px;
+  width: 327px;
+  height: 248.15px;
+
+  /* inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 
-.line {
-  display: flex;
-  margin: 0 24px;
-  width: 327px;
+.get {
+  width: 357px;
+  height: 72px;
   color: #dfe1e6;
-  height: 1px;
 }

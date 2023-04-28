@@ -45,7 +45,10 @@ HTML AND CSS languages
 
 <details>
   <summary>Client</summary>
-  
+  <ul>
+    <li><a href="https://html5.org/">HTML</a></li>
+    <li><a href="https://css.org/">CSS</a></li>
+  </ul>
 </details>
 
 ### Key Features <a name="key-features"></a>
@@ -79,14 +82,16 @@ In order to run this project you need:
 ### Setup
 
 Clone this repository to your desired folder:
-
-1. git clone(ssh url of the repo)
-2. cd (name of the repo)
+1. cd my-folder(desktop)
+2. git clone (git@github.com:brendalutiku/Portfolio-Setup.git)
+3. cd (Portfolio-Setup)
 
 ### Install
 
 Install this project with:
+1.cd Portfolio-Setup
 
+2.code . 
 
 
 ### Usage
@@ -105,7 +110,7 @@ Example command:
 ### Run tests
 
 To run tests, run the following command:
-
+ open the live server from the visual studio.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
