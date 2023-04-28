@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap');
 
+/* @media screen (min-width: 375px)and (max-width: 768px) { */
 * {
   padding: 0;
   margin: 0;
@@ -10,12 +11,14 @@
 }
 
 body {
-  background-color: rgb(247, 243, 243);
+  background-color: #e5e5e5;
   position: absolute;
   width: 375px;
   height: 718px;
   left: 0;
   top: 0;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .navigation {
@@ -149,7 +152,7 @@ nav ul li a {
   font-size: 16px;
   line-height: 24px;
   padding-top: 50px;
-  margin-top: 12px;
+  margin-top: 2px;
 
   /* Primary /B300 */
   color: #7f8cff;
@@ -176,4 +179,358 @@ nav ul li a {
   order: 3;
   flex-grow: 0;
   margin-top: 12px;
+}
+
+.headings {
+  width: 295px;
+  height: 36px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+
+  /* or 138% */
+
+  /* Neutrals /N800 */
+  color: #172b4d;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.heading-two {
+  width: 295px;
+  height: 80px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+
+  /* or 138% */
+
+  /* Neutrals /N800 */
+  color: #172b4d;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.works {
+  /* Auto layout */
+  display: grid;
+  flex-direction: column;
+  align-items: center;
+  padding: 114px 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+  gap: 88px;
+  position: absolute;
+  width: 327px;
+  height: 2788px;
+  left: 0;
+  top: 718px;
+}
+
+.page {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+
+  /* Neutrals/ N600 */
+  color: #344563;
+}
+
+.cardworks-one {
+  box-sizing: border-box;
+  padding: 16px;
+  gap: 16px;
+  width: 327px;
+  height: 552px;
+
+  /* Neutrals/ N0 */
+
+  background: #ffff;
+
+  /* Neutrals/ N40 */
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.cardworks-two {
+  box-sizing: border-box;
+  padding: 16px;
+  gap: 16px;
+  width: 327px;
+  height: 596px;
+
+  /* Neutrals/ N0 */
+
+  background: #ffff;
+
+  /* Neutrals/ N40 */
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.cardworks-three {
+  box-sizing: border-box;
+  padding: 16px;
+  gap: 16px;
+  width: 327px;
+  height: 552px;
+
+  /* Neutrals/ N0 */
+
+  background: #ffff;
+
+  /* Neutrals/ N40 */
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.cardworks-four {
+  box-sizing: border-box;
+  padding: 16px;
+  gap: 16px;
+  width: 327px;
+  height: 596px;
+
+  /* Neutrals/ N0 */
+
+  background: #ffff;
+
+  /* Neutrals/ N40 */
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+.tag {
+  display: flex;
+  gap: 6px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.press {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  position: absolute;
+  width: 126px;
+  height: 48px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  background-color: #fff;
+  color: #396df2;
+
+  /* Primary /B400 */
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+}
+
+.press:hover {
+  background-color: #396df2;
+  color: #fff;
+}
+
+.about-me {
+  display: flex;
+  background: #fff;
+  border-top-right-radius: 90px;
+  flex-direction: column;
+  align-items: center;
+  padding: 114px 24px;
+  gap: 24px;
+  position: absolute;
+  width: 375px;
+  height: 1062.15px;
+  left: calc(50% - 375px / 2);
+  top: 3586.8px;
+}
+
+h6 {
+  width: 327px;
+  height: 35px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  margin-bottom: 20px;
+
+  /* or 130% */
+  display: flex;
+  align-items: center;
+
+  /* Neutrals /N800 */
+  color: #172b4d;
+
+  /* inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.about-paragraph {
+  width: 327px;
+  height: 147px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* or 150% */
+
+  /* Neutrals /N600 */
+  color: #344563;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  width: 200px;
+  height: 40px;
+  gap: 8px;
+
+  /* inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.start {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 162px;
+  height: 48px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.01em;
+
+  /* Primary /B500 */
+  color: #396df2;
+
+  /* Primary /B400 */
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+
+  /* inside auto layout */
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+.start:hover {
+  background-color: #afc2f3;
+  color: #fff;
+  padding: 5px 5px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  width: 327px;
+  height: 464.15px;
+  margin: 20px;
+
+  /* inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.language {
+  position: absolute;
+  height: 24px;
+  left: 12px;
+  right: 78px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  /* identicalto box height or 120% */
+  display: flex;
+  align-items: center;
+  color: #000;
+}
+
+.skill-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  width: 327px;
+  height: 464.15px;
+
+  /* inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.language-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px;
+  gap: 12px;
+  width: 327px;
+  height: 248.15px;
+
+  /* inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.get {
+  width: 357px;
+  height: 72px;
+  color: #dfe1e6;
 }
