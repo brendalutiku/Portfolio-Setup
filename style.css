@@ -541,6 +541,7 @@ h6 {
   background-repeat: no-repeat;
   background-position: 150px;
   border-top-left-radius: 90px;
+  overflow-x: hidden;
   position: absolute;
   width: 375px;
   height: 779px;
@@ -594,6 +595,7 @@ h6 {
   height: 48px;
   top: 4991px;
   left: 24px;
+  padding-left: 10px;
   display: flex;
   flex-direction: column;
   background: #fff;
@@ -615,6 +617,7 @@ h6 {
   height: 48px;
   top: 5091px;
   left: 24px;
+  padding-left: 10px;
   display: flex;
   flex-direction: column;
   background: #fff;
@@ -639,6 +642,7 @@ textarea {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   left: 16px;
+  padding-left: 10px;
   right: 38px;
   margin-left: 20px;
   margin-bottom: 20px;
@@ -673,4 +677,9 @@ textarea {
   /* primary /B400 */
   color: #6070ff;
   margin-left: 20px;
+}
+
+.btn-submit:hover {
+  background-color: #396df2;
+  color: #fff;
 }
